@@ -1,9 +1,9 @@
 {
   "name": "ABSegmentControl",
   "version": "0.1.0",
-  "summary": "A short description of ABSegmentControl.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/alexander.bollbach@gmail.com/ABSegmentControl",
+  "summary": "yet another segment controller",
+  "description": "longer description about yet another segment controller",
+  "homepage": "https://github.com/AlexanderBollbach/ABSegmentController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "alexander.bollbach@gmail.com": "alexander.bollbach@gmail.com"
   },
   "source": {
-    "git": "https://github.com/alexander.bollbach@gmail.com/ABSegmentControl.git",
+    "git": "https://github.com/AlexanderBollbach/ABSegmentController.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -1,6 +1,0 @@
-framework module ABSegmentControl {
-  umbrella header "ABSegmentControl-umbrella.h"
-
-  export *
-  module * { export * }
-}

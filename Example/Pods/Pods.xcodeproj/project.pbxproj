@@ -7,121 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2901B1190EE76FBA4FF508C41E65E1CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2CBBC89ABE5A806D195953A629E26292 /* ABSegmentControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E666C679CF536A4F2E65935186E2B1 /* ABSegmentControl-dummy.m */; };
-		2E627EE121B912ABC83EFEA9FB70DD84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		38D05F22EF243093EDE5A3EF641DC962 /* Pods-ABSegmentControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD39F9529B96442C8D23FB157F04B803 /* Pods-ABSegmentControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EDB578F9151AB14971E6844F7162F70 /* Pods-ABSegmentControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65AAF7B4BAE517DBF617217625859A2E /* Pods-ABSegmentControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FE87C25E15F795C54B2205817597DDE /* ABSegmentControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7055CC9ABF965E018F4EFCF467C84174 /* ABSegmentControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9459AC6A148189BCC9C115D9EEF95C8F /* Pods-ABSegmentControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB623BF085BE9D93888DB2C5F9AA7DC /* Pods-ABSegmentControl_Example-dummy.m */; };
-		9A1776C0F395CA064F5B0DAE272DE958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D95DDE059CFAFE2ECC6880CD90EBBFF9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A745163A30E09AB8DDE2A390A9B9D6 /* ReplaceMe.swift */; };
-		FD41B0F6BE61614C83BD2D519949C78D /* Pods-ABSegmentControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F22FF2093B7E2EB073CBD9EBA3736 /* Pods-ABSegmentControl_Tests-dummy.m */; };
+		8817F02A2356553EF4962E80ACC51F51 /* Pods-ABSegmentControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA477917B73734926A5616ED2B06E0BB /* Pods-ABSegmentControl_Example-dummy.m */; };
+		DA9F8617DB45127A2D8F16AA0BAB4F63 /* Pods-ABSegmentControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B72B91F2105ED6F2E380DDD2B784ADE6 /* Pods-ABSegmentControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D687493CC1AC7732377DB1CB103D7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1346434A4EB6529BD8A7AE37EC0BCE95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4B5A027A97BA206073BEF0717744D0D;
-			remoteInfo = ABSegmentControl;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0FF59F8AE58768C6082EEB68B6E8E800 /* Pods-ABSegmentControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ABSegmentControl_Tests.modulemap"; sourceTree = "<group>"; };
-		10211967481474F73EF4E7569EE2BC14 /* Pods-ABSegmentControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSegmentControl_Tests-resources.sh"; sourceTree = "<group>"; };
-		11E2B2BF2A76889ADB4358F1D58FFFC3 /* Pods-ABSegmentControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABSegmentControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		223D5A30CA0FCF45A873F4BCD3D5836B /* Pods_ABSegmentControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABSegmentControl_Example.framework; path = "Pods-ABSegmentControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25E666C679CF536A4F2E65935186E2B1 /* ABSegmentControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABSegmentControl-dummy.m"; sourceTree = "<group>"; };
-		29771A02E882B3BD6F7E245F95C03CF5 /* Pods-ABSegmentControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ABSegmentControl_Example.modulemap"; sourceTree = "<group>"; };
-		315ED3BD639CE0DEB4A5D9049B02C9F3 /* ABSegmentControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABSegmentControl.xcconfig; sourceTree = "<group>"; };
-		36F8F3FD8E74E701A5D01A53D0BB0469 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42A696C24BDF798EC8E80BE622EF49A7 /* Pods-ABSegmentControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSegmentControl_Example-resources.sh"; sourceTree = "<group>"; };
-		4303F02E844EF3BA62EACBC98BDCA336 /* Pods-ABSegmentControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSegmentControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4BA070DFB52031CF3DB1BC550C051FE3 /* Pods-ABSegmentControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABSegmentControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B546F3A1AE98FEF1996DBA0C48CA67B /* ABSegmentControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABSegmentControl-prefix.pch"; sourceTree = "<group>"; };
-		5EB623BF085BE9D93888DB2C5F9AA7DC /* Pods-ABSegmentControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABSegmentControl_Example-dummy.m"; sourceTree = "<group>"; };
-		6360A2487069D39DA3BAA4B8BCDB40DD /* Pods-ABSegmentControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSegmentControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		65AAF7B4BAE517DBF617217625859A2E /* Pods-ABSegmentControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABSegmentControl_Example-umbrella.h"; sourceTree = "<group>"; };
-		7055CC9ABF965E018F4EFCF467C84174 /* ABSegmentControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABSegmentControl-umbrella.h"; sourceTree = "<group>"; };
-		74466B22C614BC96A8DA556CEE1B01B2 /* Pods-ABSegmentControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSegmentControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7521F0F9AF12D86914CA8FCB2131BA07 /* ABSegmentControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABSegmentControl.framework; path = ABSegmentControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		880C641BB7F3D8BE85E668E5DD85D756 /* Pods-ABSegmentControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSegmentControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8F8062552FB16AAD258B9ED94992CB10 /* Pods-ABSegmentControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABSegmentControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		926FA4225D27B3C6CDA2F4F900864EEA /* Pods-ABSegmentControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSegmentControl_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A69D34D77E5D8A57D193330B756990C8 /* Pods-ABSegmentControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABSegmentControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B748B87D22B4B6C1B4E3B4D9232C00AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DC488EEB4F685EE96F52F0438D1428 /* Pods-ABSegmentControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSegmentControl_Example-resources.sh"; sourceTree = "<group>"; };
+		29F8D6B41E6C79C300814321 /* ABSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABSegmentControl.swift; sourceTree = "<group>"; };
+		29F8D6B51E6C79C900814321 /* ABSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABSegment.swift; sourceTree = "<group>"; };
+		663247E685BECC2129AFAEBB29B4D465 /* Pods-ABSegmentControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSegmentControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A5474C8FD816359B09845B12E656D2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93011F7E10B2A0A55EB26DDCE7EEC8E6 /* Pods-ABSegmentControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSegmentControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		930E1865F601DEDD22C416C32CA34078 /* Pods-ABSegmentControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABSegmentControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9440584DB6243C214574E5DAAF838405 /* Pods_ABSegmentControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABSegmentControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40E6B3872B38C84B4E2F44555FE2EF3 /* Pods-ABSegmentControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ABSegmentControl_Example.modulemap"; sourceTree = "<group>"; };
+		B72B91F2105ED6F2E380DDD2B784ADE6 /* Pods-ABSegmentControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABSegmentControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		CA477917B73734926A5616ED2B06E0BB /* Pods-ABSegmentControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABSegmentControl_Example-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD8F22FF2093B7E2EB073CBD9EBA3736 /* Pods-ABSegmentControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABSegmentControl_Tests-dummy.m"; sourceTree = "<group>"; };
-		D2A745163A30E09AB8DDE2A390A9B9D6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		D311389A63D4F73BAB60BD8249EAF8DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD39F9529B96442C8D23FB157F04B803 /* Pods-ABSegmentControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABSegmentControl_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DF6F90A4A964720926743570B9E10AC2 /* Pods_ABSegmentControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABSegmentControl_Tests.framework; path = "Pods-ABSegmentControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E18E349DD10A1ADB26B7265FAF69EA28 /* Pods-ABSegmentControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSegmentControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E6175F17EB3707A27C8E8375DB512DBA /* ABSegmentControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ABSegmentControl.modulemap; sourceTree = "<group>"; };
+		CBD1F4F0F8FC551B4DB4095BCFD6B3A6 /* Pods-ABSegmentControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSegmentControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D0DE9D20AFEF8A0568AA240E9A3171 /* Pods-ABSegmentControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABSegmentControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00AF7DEC3C357C56FCC0C5C7A6FC704C /* Frameworks */ = {
+		0D170DB04FD780F103841CF5C5CF362D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E627EE121B912ABC83EFEA9FB70DD84 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E1BBFCCB57477E16238D91AFAC740C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A1776C0F395CA064F5B0DAE272DE958 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DABD1C9728F864C271E53202EEE57F69 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2901B1190EE76FBA4FF508C41E65E1CE /* Foundation.framework in Frameworks */,
+				F4D687493CC1AC7732377DB1CB103D7F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14BDA1DFF827A622AF8D6AAEC4E36396 /* Support Files */ = {
+		2AA6ADC740C3AF9469B91CA4A03440A2 /* Pods-ABSegmentControl_Example */ = {
 			isa = PBXGroup;
 			children = (
-				E6175F17EB3707A27C8E8375DB512DBA /* ABSegmentControl.modulemap */,
-				315ED3BD639CE0DEB4A5D9049B02C9F3 /* ABSegmentControl.xcconfig */,
-				25E666C679CF536A4F2E65935186E2B1 /* ABSegmentControl-dummy.m */,
-				5B546F3A1AE98FEF1996DBA0C48CA67B /* ABSegmentControl-prefix.pch */,
-				7055CC9ABF965E018F4EFCF467C84174 /* ABSegmentControl-umbrella.h */,
-				D311389A63D4F73BAB60BD8249EAF8DE /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ABSegmentControl";
-			sourceTree = "<group>";
-		};
-		2F2F4ABDC7AA34CD9357E27403753DD6 /* Pods-ABSegmentControl_Example */ = {
-			isa = PBXGroup;
-			children = (
-				36F8F3FD8E74E701A5D01A53D0BB0469 /* Info.plist */,
-				29771A02E882B3BD6F7E245F95C03CF5 /* Pods-ABSegmentControl_Example.modulemap */,
-				4BA070DFB52031CF3DB1BC550C051FE3 /* Pods-ABSegmentControl_Example-acknowledgements.markdown */,
-				A69D34D77E5D8A57D193330B756990C8 /* Pods-ABSegmentControl_Example-acknowledgements.plist */,
-				5EB623BF085BE9D93888DB2C5F9AA7DC /* Pods-ABSegmentControl_Example-dummy.m */,
-				926FA4225D27B3C6CDA2F4F900864EEA /* Pods-ABSegmentControl_Example-frameworks.sh */,
-				42A696C24BDF798EC8E80BE622EF49A7 /* Pods-ABSegmentControl_Example-resources.sh */,
-				65AAF7B4BAE517DBF617217625859A2E /* Pods-ABSegmentControl_Example-umbrella.h */,
-				6360A2487069D39DA3BAA4B8BCDB40DD /* Pods-ABSegmentControl_Example.debug.xcconfig */,
-				880C641BB7F3D8BE85E668E5DD85D756 /* Pods-ABSegmentControl_Example.release.xcconfig */,
+				7A5474C8FD816359B09845B12E656D2E /* Info.plist */,
+				B40E6B3872B38C84B4E2F44555FE2EF3 /* Pods-ABSegmentControl_Example.modulemap */,
+				E9D0DE9D20AFEF8A0568AA240E9A3171 /* Pods-ABSegmentControl_Example-acknowledgements.markdown */,
+				930E1865F601DEDD22C416C32CA34078 /* Pods-ABSegmentControl_Example-acknowledgements.plist */,
+				CA477917B73734926A5616ED2B06E0BB /* Pods-ABSegmentControl_Example-dummy.m */,
+				93011F7E10B2A0A55EB26DDCE7EEC8E6 /* Pods-ABSegmentControl_Example-frameworks.sh */,
+				17DC488EEB4F685EE96F52F0438D1428 /* Pods-ABSegmentControl_Example-resources.sh */,
+				B72B91F2105ED6F2E380DDD2B784ADE6 /* Pods-ABSegmentControl_Example-umbrella.h */,
+				CBD1F4F0F8FC551B4DB4095BCFD6B3A6 /* Pods-ABSegmentControl_Example.debug.xcconfig */,
+				663247E685BECC2129AFAEBB29B4D465 /* Pods-ABSegmentControl_Example.release.xcconfig */,
 			);
 			name = "Pods-ABSegmentControl_Example";
 			path = "Target Support Files/Pods-ABSegmentControl_Example";
+			sourceTree = "<group>";
+		};
+		587D25D7829878BC2FE70404C3F337C5 /* ABSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				29F8D6B51E6C79C900814321 /* ABSegment.swift */,
+				29F8D6B41E6C79C300814321 /* ABSegmentControl.swift */,
+			);
+			name = ABSegmentControl;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -136,21 +82,27 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F8E22A0EACF1C8F7A124A53E5776DE6B /* Development Pods */,
+				A8465099DBA0FDAED877F93EF4803417 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DE2B804A25CBB82E5608F7AC15DDBAED /* Products */,
-				ED7F49D6DFB019538B11A7AE2DF15305 /* Targets Support Files */,
+				BF096DE642C9B27026E3F20DACA06D03 /* Products */,
+				A48E690E84FF916C0183AC2E273133EA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B5D16D43E48D103F877C4659A4381E84 /* ABSegmentControl */ = {
+		A48E690E84FF916C0183AC2E273133EA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C629DF03A2D5DFFE6CCD21EC1F48FE07 /* ABSegmentControl */,
-				14BDA1DFF827A622AF8D6AAEC4E36396 /* Support Files */,
+				2AA6ADC740C3AF9469B91CA4A03440A2 /* Pods-ABSegmentControl_Example */,
 			);
-			name = ABSegmentControl;
-			path = ../..;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8465099DBA0FDAED877F93EF4803417 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				587D25D7829878BC2FE70404C3F337C5 /* ABSegmentControl */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -161,149 +113,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C629DF03A2D5DFFE6CCD21EC1F48FE07 /* ABSegmentControl */ = {
+		BF096DE642C9B27026E3F20DACA06D03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D31E834CFFB4EA010870BB6B40FBB676 /* Classes */,
-			);
-			name = ABSegmentControl;
-			path = ABSegmentControl;
-			sourceTree = "<group>";
-		};
-		D31E834CFFB4EA010870BB6B40FBB676 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D2A745163A30E09AB8DDE2A390A9B9D6 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		DE044636B657A2349ACE706468761256 /* Pods-ABSegmentControl_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B748B87D22B4B6C1B4E3B4D9232C00AC /* Info.plist */,
-				0FF59F8AE58768C6082EEB68B6E8E800 /* Pods-ABSegmentControl_Tests.modulemap */,
-				11E2B2BF2A76889ADB4358F1D58FFFC3 /* Pods-ABSegmentControl_Tests-acknowledgements.markdown */,
-				8F8062552FB16AAD258B9ED94992CB10 /* Pods-ABSegmentControl_Tests-acknowledgements.plist */,
-				CD8F22FF2093B7E2EB073CBD9EBA3736 /* Pods-ABSegmentControl_Tests-dummy.m */,
-				E18E349DD10A1ADB26B7265FAF69EA28 /* Pods-ABSegmentControl_Tests-frameworks.sh */,
-				10211967481474F73EF4E7569EE2BC14 /* Pods-ABSegmentControl_Tests-resources.sh */,
-				DD39F9529B96442C8D23FB157F04B803 /* Pods-ABSegmentControl_Tests-umbrella.h */,
-				4303F02E844EF3BA62EACBC98BDCA336 /* Pods-ABSegmentControl_Tests.debug.xcconfig */,
-				74466B22C614BC96A8DA556CEE1B01B2 /* Pods-ABSegmentControl_Tests.release.xcconfig */,
-			);
-			name = "Pods-ABSegmentControl_Tests";
-			path = "Target Support Files/Pods-ABSegmentControl_Tests";
-			sourceTree = "<group>";
-		};
-		DE2B804A25CBB82E5608F7AC15DDBAED /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7521F0F9AF12D86914CA8FCB2131BA07 /* ABSegmentControl.framework */,
-				223D5A30CA0FCF45A873F4BCD3D5836B /* Pods_ABSegmentControl_Example.framework */,
-				DF6F90A4A964720926743570B9E10AC2 /* Pods_ABSegmentControl_Tests.framework */,
+				9440584DB6243C214574E5DAAF838405 /* Pods_ABSegmentControl_Example.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		ED7F49D6DFB019538B11A7AE2DF15305 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2F2F4ABDC7AA34CD9357E27403753DD6 /* Pods-ABSegmentControl_Example */,
-				DE044636B657A2349ACE706468761256 /* Pods-ABSegmentControl_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F8E22A0EACF1C8F7A124A53E5776DE6B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B5D16D43E48D103F877C4659A4381E84 /* ABSegmentControl */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12D217C1B6386DC09993B08A24BDE448 /* Headers */ = {
+		E01F54097A456E93F959CF118059D0C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDB578F9151AB14971E6844F7162F70 /* Pods-ABSegmentControl_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A30FE755E30190E504AFA03EC0ED613D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FE87C25E15F795C54B2205817597DDE /* ABSegmentControl-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE8B0C627DB051C54F12B909B6155CBB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38D05F22EF243093EDE5A3EF641DC962 /* Pods-ABSegmentControl_Tests-umbrella.h in Headers */,
+				DA9F8617DB45127A2D8F16AA0BAB4F63 /* Pods-ABSegmentControl_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		30EFAB74908C893DEB20E365A22AB80F /* Pods-ABSegmentControl_Example */ = {
+		6E0D3562CE63C1F05A700285F7565F7D /* Pods-ABSegmentControl_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DB2EFE0F6030FEE4387144CFE57894D /* Build configuration list for PBXNativeTarget "Pods-ABSegmentControl_Example" */;
+			buildConfigurationList = 992B96D8647FCBC4C5844C4F9A4BF5F4 /* Build configuration list for PBXNativeTarget "Pods-ABSegmentControl_Example" */;
 			buildPhases = (
-				E5B61453C2CE79780E1A936706CA5AA8 /* Sources */,
-				00AF7DEC3C357C56FCC0C5C7A6FC704C /* Frameworks */,
-				12D217C1B6386DC09993B08A24BDE448 /* Headers */,
+				C27E0778CE17BFE5C497365719EC9B7D /* Sources */,
+				0D170DB04FD780F103841CF5C5CF362D /* Frameworks */,
+				E01F54097A456E93F959CF118059D0C0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8546D637DFCCBBDFB353A9FD6D6AB4E3 /* PBXTargetDependency */,
 			);
 			name = "Pods-ABSegmentControl_Example";
 			productName = "Pods-ABSegmentControl_Example";
-			productReference = 223D5A30CA0FCF45A873F4BCD3D5836B /* Pods_ABSegmentControl_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A361019F551211244A2CFC2A9CAA0715 /* Pods-ABSegmentControl_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 01CF9C75FFE5C9A352CF830BD89EF796 /* Build configuration list for PBXNativeTarget "Pods-ABSegmentControl_Tests" */;
-			buildPhases = (
-				822F66B388285EA37B957F5A3350BFF7 /* Sources */,
-				5E1BBFCCB57477E16238D91AFAC740C0 /* Frameworks */,
-				AE8B0C627DB051C54F12B909B6155CBB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ABSegmentControl_Tests";
-			productName = "Pods-ABSegmentControl_Tests";
-			productReference = DF6F90A4A964720926743570B9E10AC2 /* Pods_ABSegmentControl_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F4B5A027A97BA206073BEF0717744D0D /* ABSegmentControl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3980B41FEFC2EFC34F07EC56C8B759A5 /* Build configuration list for PBXNativeTarget "ABSegmentControl" */;
-			buildPhases = (
-				2346E0B65369425765773F6F63F46B6F /* Sources */,
-				DABD1C9728F864C271E53202EEE57F69 /* Frameworks */,
-				A30FE755E30190E504AFA03EC0ED613D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ABSegmentControl;
-			productName = ABSegmentControl;
-			productReference = 7521F0F9AF12D86914CA8FCB2131BA07 /* ABSegmentControl.framework */;
+			productReference = 9440584DB6243C214574E5DAAF838405 /* Pods_ABSegmentControl_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -323,93 +169,30 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DE2B804A25CBB82E5608F7AC15DDBAED /* Products */;
+			productRefGroup = BF096DE642C9B27026E3F20DACA06D03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4B5A027A97BA206073BEF0717744D0D /* ABSegmentControl */,
-				30EFAB74908C893DEB20E365A22AB80F /* Pods-ABSegmentControl_Example */,
-				A361019F551211244A2CFC2A9CAA0715 /* Pods-ABSegmentControl_Tests */,
+				6E0D3562CE63C1F05A700285F7565F7D /* Pods-ABSegmentControl_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2346E0B65369425765773F6F63F46B6F /* Sources */ = {
+		C27E0778CE17BFE5C497365719EC9B7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBBC89ABE5A806D195953A629E26292 /* ABSegmentControl-dummy.m in Sources */,
-				D95DDE059CFAFE2ECC6880CD90EBBFF9 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		822F66B388285EA37B957F5A3350BFF7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD41B0F6BE61614C83BD2D519949C78D /* Pods-ABSegmentControl_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5B61453C2CE79780E1A936706CA5AA8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9459AC6A148189BCC9C115D9EEF95C8F /* Pods-ABSegmentControl_Example-dummy.m in Sources */,
+				8817F02A2356553EF4962E80ACC51F51 /* Pods-ABSegmentControl_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8546D637DFCCBBDFB353A9FD6D6AB4E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ABSegmentControl;
-			target = F4B5A027A97BA206073BEF0717744D0D /* ABSegmentControl */;
-			targetProxy = 1346434A4EB6529BD8A7AE37EC0BCE95 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		11A9057420237F3146766F0504F78763 /* Debug */ = {
+		661B38EC163D39BB5C63A9A2A63C9D90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4303F02E844EF3BA62EACBC98BDCA336 /* Pods-ABSegmentControl_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ABSegmentControl_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ABSegmentControl_Tests/Pods-ABSegmentControl_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ABSegmentControl_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3BE965AC38578D67E5D463465B585ACC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6360A2487069D39DA3BAA4B8BCDB40DD /* Pods-ABSegmentControl_Example.debug.xcconfig */;
+			baseConfigurationReference = CBD1F4F0F8FC551B4DB4095BCFD6B3A6 /* Pods-ABSegmentControl_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -436,7 +219,6 @@
 				PRODUCT_NAME = Pods_ABSegmentControl_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -480,41 +262,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8DFDE6C9707C0936E216C72C8242E7CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74466B22C614BC96A8DA556CEE1B01B2 /* Pods-ABSegmentControl_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ABSegmentControl_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ABSegmentControl_Tests/Pods-ABSegmentControl_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ABSegmentControl_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -562,41 +309,9 @@
 			};
 			name = Debug;
 		};
-		B722F594DCF57E1F17A093619D3B6EEB /* Release */ = {
+		E1866C713EDF91F129ECDA29510F6020 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 315ED3BD639CE0DEB4A5D9049B02C9F3 /* ABSegmentControl.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ABSegmentControl/ABSegmentControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ABSegmentControl/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ABSegmentControl/ABSegmentControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ABSegmentControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B95AC0875746C0A578511697AF19493F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 880C641BB7F3D8BE85E668E5DD85D756 /* Pods-ABSegmentControl_Example.release.xcconfig */;
+			baseConfigurationReference = 663247E685BECC2129AFAEBB29B4D465 /* Pods-ABSegmentControl_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -629,60 +344,9 @@
 			};
 			name = Release;
 		};
-		C1DD630A6956A63A367250B50804C242 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 315ED3BD639CE0DEB4A5D9049B02C9F3 /* ABSegmentControl.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ABSegmentControl/ABSegmentControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ABSegmentControl/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ABSegmentControl/ABSegmentControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ABSegmentControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01CF9C75FFE5C9A352CF830BD89EF796 /* Build configuration list for PBXNativeTarget "Pods-ABSegmentControl_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11A9057420237F3146766F0504F78763 /* Debug */,
-				8DFDE6C9707C0936E216C72C8242E7CE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DB2EFE0F6030FEE4387144CFE57894D /* Build configuration list for PBXNativeTarget "Pods-ABSegmentControl_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BE965AC38578D67E5D463465B585ACC /* Debug */,
-				B95AC0875746C0A578511697AF19493F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -692,11 +356,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3980B41FEFC2EFC34F07EC56C8B759A5 /* Build configuration list for PBXNativeTarget "ABSegmentControl" */ = {
+		992B96D8647FCBC4C5844C4F9A4BF5F4 /* Build configuration list for PBXNativeTarget "Pods-ABSegmentControl_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1DD630A6956A63A367250B50804C242 /* Debug */,
-				B722F594DCF57E1F17A093619D3B6EEB /* Release */,
+				661B38EC163D39BB5C63A9A2A63C9D90 /* Debug */,
+				E1866C713EDF91F129ECDA29510F6020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
