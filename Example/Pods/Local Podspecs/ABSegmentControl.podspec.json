@@ -1,0 +1,22 @@
+{
+  "name": "ABSegmentControl",
+  "version": "0.1.0",
+  "summary": "A short description of ABSegmentControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alexander.bollbach@gmail.com/ABSegmentControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alexander.bollbach@gmail.com": "alexander.bollbach@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alexander.bollbach@gmail.com/ABSegmentControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ABSegmentControl/Classes/**/*"
+}

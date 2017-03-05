@@ -1,0 +1,16 @@
+PODS:
+  - ABSegmentControl (0.1.0)
+
+DEPENDENCIES:
+  - ABSegmentControl (from `../`)
+
+EXTERNAL SOURCES:
+  ABSegmentControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ABSegmentControl: fc044bd14bf4f918ae1bc420aeb2f96e2be793a9
+
+PODFILE CHECKSUM: 7419707c0a36aefb97260d7f49ff6ba391a5ad7f
+
+COCOAPODS: 1.2.0

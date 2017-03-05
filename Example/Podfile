@@ -3,9 +3,5 @@ use_frameworks!
 target 'ABSegmentControl_Example' do
   pod 'ABSegmentControl', :path => '../'
 
-  target 'ABSegmentControl_Tests' do
-    inherit! :search_paths
 
-    
-  end
 end
