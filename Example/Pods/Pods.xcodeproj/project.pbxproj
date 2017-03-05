@@ -14,8 +14,8 @@
 
 /* Begin PBXFileReference section */
 		17DC488EEB4F685EE96F52F0438D1428 /* Pods-ABSegmentControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSegmentControl_Example-resources.sh"; sourceTree = "<group>"; };
-		29F8D6B41E6C79C300814321 /* ABSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABSegmentControl.swift; sourceTree = "<group>"; };
-		29F8D6B51E6C79C900814321 /* ABSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABSegment.swift; sourceTree = "<group>"; };
+		29F8D6B71E6C7E0500814321 /* ABSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ABSegment.swift; path = ABSegmentControl/Classes/ABSegment.swift; sourceTree = "<group>"; };
+		29F8D6B81E6C7E0500814321 /* ABSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ABSegmentControl.swift; path = ABSegmentControl/Classes/ABSegmentControl.swift; sourceTree = "<group>"; };
 		663247E685BECC2129AFAEBB29B4D465 /* Pods-ABSegmentControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSegmentControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A5474C8FD816359B09845B12E656D2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93011F7E10B2A0A55EB26DDCE7EEC8E6 /* Pods-ABSegmentControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSegmentControl_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29F8D6B61E6C7DFB00814321 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29F8D6B71E6C7E0500814321 /* ABSegment.swift */,
+				29F8D6B81E6C7E0500814321 /* ABSegmentControl.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		2AA6ADC740C3AF9469B91CA4A03440A2 /* Pods-ABSegmentControl_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +72,7 @@
 		587D25D7829878BC2FE70404C3F337C5 /* ABSegmentControl */ = {
 			isa = PBXGroup;
 			children = (
-				29F8D6B51E6C79C900814321 /* ABSegment.swift */,
-				29F8D6B41E6C79C300814321 /* ABSegmentControl.swift */,
+				29F8D6B61E6C7DFB00814321 /* Classes */,
 			);
 			name = ABSegmentControl;
 			path = ../..;

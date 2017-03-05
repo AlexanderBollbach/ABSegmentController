@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ABSegmentControl_Example' do
-  pod 'ABSegmentControl', :path => '../'
+  pod 'ABSegmentControl'
 
 
 end
